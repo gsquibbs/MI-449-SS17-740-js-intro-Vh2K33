@@ -1,35 +1,33 @@
 //snare
-var buttonElement=document.getElementById('snareDrum')
-var snareAudio = new Audio('snare.wav');
+var snareButton=document.getElementById('snareDrum')
 
-buttonElement.addEventListener('click', function () {
+snareButton.addEventListener('click', function () {
   snareAudio.play();
 })
 
-buttonElement.addEventListener('mouseenter', function () {
+snareButton.addEventListener('mouseenter', function () {
   snareAudio.play();
 })
 
 //hihat
-var buttonElement=document.getElementById('hiHat')
-var hatAudio = new Audio('hihat.wav');
+var hatButton=document.getElementById('hiHat')
 
-buttonElement.addEventListener('click', function () {
+
+hatButton.addEventListener('click', function () {
   hatAudio.play();
 })
 
-buttonElement.addEventListener('mouseenter', function () {
+hatButton.addEventListener('mouseenter', function () {
   hatAudio.play();
 })
 
 //boom
-var buttonElement=document.getElementById('boom')
-var boomAudio = new Audio('boom.wav');
+var boomButton=document.getElementById('boom')
 
-buttonElement.addEventListener('click', function () {
+boomButton.addEventListener('click', function () {
   boomAudio.play();
 })
 
-buttonElement.addEventListener('mouseenter', function () {
+boomButton.addEventListener('mouseenter', function () {
   boomAudio.play();
 })
