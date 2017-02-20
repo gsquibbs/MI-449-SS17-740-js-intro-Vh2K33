@@ -1,33 +1,36 @@
 //snare
 var snareButton=document.getElementById('snareDrum')
+var snare=document.getElementById('snareAudio')
 
 snareButton.addEventListener('click', function () {
-  snareAudio.play();
+  snare.play();
 })
 
 snareButton.addEventListener('mouseenter', function () {
-  snareAudio.play();
+  snare.play();
 })
 
 //hihat
 var hatButton=document.getElementById('hiHat')
-
+var hihat=document.getElementById('hatAudio')
 
 hatButton.addEventListener('click', function () {
-  hatAudio.play();
+  hihat.play();
 })
 
 hatButton.addEventListener('mouseenter', function () {
-  hatAudio.play();
+  hihat.play();
 })
 
-//boom
+//  boom
+
 var boomButton=document.getElementById('boom')
+var boom=document.getElementById('boomAudio')
 
 boomButton.addEventListener('click', function () {
-  boomAudio.play();
+  boom.play();
 })
 
 boomButton.addEventListener('mouseenter', function () {
-  boomAudio.play();
+  boom.play();
 })
